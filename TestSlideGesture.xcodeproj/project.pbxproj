@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		78B887F51AD3C4FF004B5698 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B887F41AD3C4FF004B5698 /* main.m */; };
 		78B887F81AD3C4FF004B5698 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B887F71AD3C4FF004B5698 /* AppDelegate.m */; };
-		78B887FB1AD3C4FF004B5698 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B887FA1AD3C4FF004B5698 /* ViewController.m */; };
-		78B887FE1AD3C4FF004B5698 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78B887FC1AD3C4FF004B5698 /* Main.storyboard */; };
 		78B888001AD3C4FF004B5698 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B887FF1AD3C4FF004B5698 /* Images.xcassets */; };
 		78B888031AD3C4FF004B5698 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B888011AD3C4FF004B5698 /* LaunchScreen.xib */; };
 		78B8880F1AD3C4FF004B5698 /* TestSlideGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8880E1AD3C4FF004B5698 /* TestSlideGestureTests.m */; };
+		78B8881A1AD3C52B004B5698 /* LxNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B888191AD3C52B004B5698 /* LxNavigationController.m */; };
+		78B8881D1AD3C5AF004B5698 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8881C1AD3C5AF004B5698 /* FirstViewController.m */; };
+		78B888201AD3C607004B5698 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8881F1AD3C607004B5698 /* SecondViewController.m */; };
+		78B888231AD3CCB9004B5698 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B888221AD3CCB9004B5698 /* ThirdViewController.m */; };
+		78B888261AD3CCC2004B5698 /* FouthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B888251AD3CCC2004B5698 /* FouthViewController.m */; };
+		78B888291AD3CCC9004B5698 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B888281AD3CCC9004B5698 /* FifthViewController.m */; };
+		78B8882C1AD3CCD2004B5698 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8882B1AD3CCD2004B5698 /* SixthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,25 @@
 		78B887F41AD3C4FF004B5698 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78B887F61AD3C4FF004B5698 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		78B887F71AD3C4FF004B5698 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		78B887F91AD3C4FF004B5698 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		78B887FA1AD3C4FF004B5698 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		78B887FD1AD3C4FF004B5698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78B887FF1AD3C4FF004B5698 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		78B888021AD3C4FF004B5698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		78B888081AD3C4FF004B5698 /* TestSlideGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSlideGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B8880D1AD3C4FF004B5698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B8880E1AD3C4FF004B5698 /* TestSlideGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSlideGestureTests.m; sourceTree = "<group>"; };
+		78B888181AD3C52B004B5698 /* LxNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxNavigationController.h; sourceTree = "<group>"; };
+		78B888191AD3C52B004B5698 /* LxNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxNavigationController.m; sourceTree = "<group>"; };
+		78B8881B1AD3C5AF004B5698 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		78B8881C1AD3C5AF004B5698 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		78B8881E1AD3C607004B5698 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		78B8881F1AD3C607004B5698 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		78B888211AD3CCB9004B5698 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		78B888221AD3CCB9004B5698 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		78B888241AD3CCC2004B5698 /* FouthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FouthViewController.h; sourceTree = "<group>"; };
+		78B888251AD3CCC2004B5698 /* FouthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FouthViewController.m; sourceTree = "<group>"; };
+		78B888271AD3CCC9004B5698 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		78B888281AD3CCC9004B5698 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		78B8882A1AD3CCD2004B5698 /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		78B8882B1AD3CCD2004B5698 /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +97,22 @@
 		78B887F11AD3C4FF004B5698 /* TestSlideGesture */ = {
 			isa = PBXGroup;
 			children = (
+				78B888181AD3C52B004B5698 /* LxNavigationController.h */,
+				78B888191AD3C52B004B5698 /* LxNavigationController.m */,
 				78B887F61AD3C4FF004B5698 /* AppDelegate.h */,
 				78B887F71AD3C4FF004B5698 /* AppDelegate.m */,
-				78B887F91AD3C4FF004B5698 /* ViewController.h */,
-				78B887FA1AD3C4FF004B5698 /* ViewController.m */,
-				78B887FC1AD3C4FF004B5698 /* Main.storyboard */,
+				78B8881B1AD3C5AF004B5698 /* FirstViewController.h */,
+				78B8881C1AD3C5AF004B5698 /* FirstViewController.m */,
+				78B8881E1AD3C607004B5698 /* SecondViewController.h */,
+				78B8881F1AD3C607004B5698 /* SecondViewController.m */,
+				78B888211AD3CCB9004B5698 /* ThirdViewController.h */,
+				78B888221AD3CCB9004B5698 /* ThirdViewController.m */,
+				78B888241AD3CCC2004B5698 /* FouthViewController.h */,
+				78B888251AD3CCC2004B5698 /* FouthViewController.m */,
+				78B888271AD3CCC9004B5698 /* FifthViewController.h */,
+				78B888281AD3CCC9004B5698 /* FifthViewController.m */,
+				78B8882A1AD3CCD2004B5698 /* SixthViewController.h */,
+				78B8882B1AD3CCD2004B5698 /* SixthViewController.m */,
 				78B887FF1AD3C4FF004B5698 /* Images.xcassets */,
 				78B888011AD3C4FF004B5698 /* LaunchScreen.xib */,
 				78B887F21AD3C4FF004B5698 /* Supporting Files */,
@@ -199,7 +226,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B887FE1AD3C4FF004B5698 /* Main.storyboard in Resources */,
 				78B888031AD3C4FF004B5698 /* LaunchScreen.xib in Resources */,
 				78B888001AD3C4FF004B5698 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +245,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B887FB1AD3C4FF004B5698 /* ViewController.m in Sources */,
+				78B888291AD3CCC9004B5698 /* FifthViewController.m in Sources */,
+				78B888201AD3C607004B5698 /* SecondViewController.m in Sources */,
 				78B887F81AD3C4FF004B5698 /* AppDelegate.m in Sources */,
+				78B888231AD3CCB9004B5698 /* ThirdViewController.m in Sources */,
 				78B887F51AD3C4FF004B5698 /* main.m in Sources */,
+				78B8882C1AD3CCD2004B5698 /* SixthViewController.m in Sources */,
+				78B8881A1AD3C52B004B5698 /* LxNavigationController.m in Sources */,
+				78B888261AD3CCC2004B5698 /* FouthViewController.m in Sources */,
+				78B8881D1AD3C5AF004B5698 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +276,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		78B887FC1AD3C4FF004B5698 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78B887FD1AD3C4FF004B5698 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		78B888011AD3C4FF004B5698 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiangwei huang (29S8DQ7QNX)";
 				INFOPLIST_FILE = TestSlideGesture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiangwei huang (29S8DQ7QNX)";
 				INFOPLIST_FILE = TestSlideGesture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

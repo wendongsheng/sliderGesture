@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SixthViewController.h
 //  TestSlideGesture
 //
 //  Created by wendongsheng on 15/4/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SixthViewController : UIViewController
 
 @end
-
