@@ -12,7 +12,7 @@
 		78B888001AD3C4FF004B5698 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B887FF1AD3C4FF004B5698 /* Images.xcassets */; };
 		78B888031AD3C4FF004B5698 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B888011AD3C4FF004B5698 /* LaunchScreen.xib */; };
 		78B8880F1AD3C4FF004B5698 /* TestSlideGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8880E1AD3C4FF004B5698 /* TestSlideGestureTests.m */; };
-		78B8881A1AD3C52B004B5698 /* LxNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B888191AD3C52B004B5698 /* LxNavigationController.m */; };
+		78B8881A1AD3C52B004B5698 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B888191AD3C52B004B5698 /* BaseNavigationController.m */; };
 		78B8881D1AD3C5AF004B5698 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8881C1AD3C5AF004B5698 /* FirstViewController.m */; };
 		78B888201AD3C607004B5698 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B8881F1AD3C607004B5698 /* SecondViewController.m */; };
 		78B888231AD3CCB9004B5698 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B888221AD3CCB9004B5698 /* ThirdViewController.m */; };
@@ -42,8 +42,8 @@
 		78B888081AD3C4FF004B5698 /* TestSlideGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSlideGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B8880D1AD3C4FF004B5698 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B8880E1AD3C4FF004B5698 /* TestSlideGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSlideGestureTests.m; sourceTree = "<group>"; };
-		78B888181AD3C52B004B5698 /* LxNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxNavigationController.h; sourceTree = "<group>"; };
-		78B888191AD3C52B004B5698 /* LxNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxNavigationController.m; sourceTree = "<group>"; };
+		78B888181AD3C52B004B5698 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		78B888191AD3C52B004B5698 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		78B8881B1AD3C5AF004B5698 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		78B8881C1AD3C5AF004B5698 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		78B8881E1AD3C607004B5698 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -97,8 +97,8 @@
 		78B887F11AD3C4FF004B5698 /* TestSlideGesture */ = {
 			isa = PBXGroup;
 			children = (
-				78B888181AD3C52B004B5698 /* LxNavigationController.h */,
-				78B888191AD3C52B004B5698 /* LxNavigationController.m */,
+				78B888181AD3C52B004B5698 /* BaseNavigationController.h */,
+				78B888191AD3C52B004B5698 /* BaseNavigationController.m */,
 				78B887F61AD3C4FF004B5698 /* AppDelegate.h */,
 				78B887F71AD3C4FF004B5698 /* AppDelegate.m */,
 				78B8881B1AD3C5AF004B5698 /* FirstViewController.h */,
@@ -251,7 +251,7 @@
 				78B888231AD3CCB9004B5698 /* ThirdViewController.m in Sources */,
 				78B887F51AD3C4FF004B5698 /* main.m in Sources */,
 				78B8882C1AD3CCD2004B5698 /* SixthViewController.m in Sources */,
-				78B8881A1AD3C52B004B5698 /* LxNavigationController.m in Sources */,
+				78B8881A1AD3C52B004B5698 /* BaseNavigationController.m in Sources */,
 				78B888261AD3CCC2004B5698 /* FouthViewController.m in Sources */,
 				78B8881D1AD3C5AF004B5698 /* FirstViewController.m in Sources */,
 			);
@@ -438,6 +438,7 @@
 				78B888141AD3C4FF004B5698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78B888151AD3C4FF004B5698 /* Build configuration list for PBXNativeTarget "TestSlideGestureTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +447,7 @@
 				78B888171AD3C4FF004B5698 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "LxNavigationController.h"
+#import "BaseNavigationController.h"
 #import "FirstViewController.h"
 
 @interface AppDelegate ()
@@ -23,7 +23,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    LxNavigationController *nav = [[LxNavigationController alloc] initWithRootViewController:[FirstViewController new]];
+    BaseNavigationController *nav = [[BaseNavigationController alloc] initWithRootViewController:[FirstViewController new]];
     self.window.rootViewController = nav;
 
     return YES;

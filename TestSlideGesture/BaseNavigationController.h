@@ -11,7 +11,7 @@ typedef NS_ENUM(NSInteger, LxNavigationControllerInteractionStopReason) {
     LxNavigationControllerInteractionStopReasonFailed,
 };
 
-@interface LxNavigationController : UINavigationController
+@interface BaseNavigationController : UINavigationController
 
 @property (nonatomic,assign) BOOL popGestureRecognizerEnable;
 @property (nonatomic,assign) BOOL recognizeOtherGestureSimultaneously;
